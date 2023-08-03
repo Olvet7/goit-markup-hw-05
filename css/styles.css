@@ -753,6 +753,7 @@ input {
     position: absolute;
     bottom: 8px;
     right: 24px;
+    margin-left: 16px;
 }
 
 /* Portfolio */
