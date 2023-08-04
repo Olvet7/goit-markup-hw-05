@@ -1064,8 +1064,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .modal-privacy-label {
     color: var(--subtle-text);
     font-size: 12px;
-    line-height: 0.875em;
-    letter-spacing: 0.03em;
+    line-height: 1.17em;
+    letter-spacing: 0.04em;
 }
 
 .modal-privacy-text {
@@ -1085,9 +1085,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
 
-.checkbox-privacy:checked + .modal-privacy-label > .user-privacy{
+.checkbox-privacy:checked + .modal-privacy-label > .modal-privacy-text{
     border: none;
     fill: var(--light);
+    background-color: var(--pressed-state)
 }
 
 .modal-privacy-link {
