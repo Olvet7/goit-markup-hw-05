@@ -987,12 +987,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
 }
 
-.user-comment-field { 
-    position: relative;
-    display: block;
-    margin-bottom: 8px;
-}
-
 .user-comment-label {
     display: block;
     margin-bottom: 8px;
@@ -1003,7 +997,12 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.03em;
 }
 
+.modal-label {
+    margin-bottom: 8px;
+}
+
 .modal-form-input {
+    position: relative; 
     display: inline-block;
     width: 100%;    
     height: 40px;
@@ -1031,6 +1030,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-form-input:focus + .modal-form-icon {
     fill: var(--primary_brand);
+}
+
+.modal-form-label {
+    font-size: 12px;
+    line-height: 1.17em;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text);
+    display: block;
+    margin-bottom: 4px; 
 }
 
 .modal-privacy {
