@@ -904,7 +904,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .backdrop {
     position: fixed;
-    padding: 72px 24px 24px 24px;
     top: 0;
     left: 0;
     width: 100%;
