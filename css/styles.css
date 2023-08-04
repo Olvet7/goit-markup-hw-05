@@ -903,7 +903,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 /* Modal Styles */
 
 .backdrop {
-    padding: 72px 24px 24px 24px;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -928,6 +928,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
+    padding: 72px 24px 24px 24px;
     position: absolute;
     width: 408px;
     height: 584px;
