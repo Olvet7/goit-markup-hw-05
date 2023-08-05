@@ -932,7 +932,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
     position: absolute;
     width: 408px;
-    height: 584px;
     flex-shrink: 0;
     border-radius: 4px;
     background-color: var(--modal-background);
@@ -1016,6 +1015,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
+.modal-label {
+    margin-bottom: 8px;
+}
 
 .modal-form-input::placeholder {
     color: rgba(46, 47, 66, 0.4);
@@ -1043,6 +1045,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 4px; 
 }
 
+.comment-label {
+    margin-bottom: 16px;
+}
+
 .modal-privacy {
     display: flex;
     align-items: center;
@@ -1068,8 +1074,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .label-checkbox {
     display: block;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
+    justify-content: center;    
 }
 
 .modal-privacy-text {
